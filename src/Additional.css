@@ -1,0 +1,46 @@
+.Additional{
+    background-color: white;
+    height:100vh;
+    width:100vw;
+    display:grid;
+    place-items: center;
+}
+.Additional__h1{
+    padding-top: 30px;
+}
+.Login__input{
+    width: 75%;
+}
+.Login__select{
+    width: 85%;
+}
+.Additional__form{
+    background-color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 50px;
+	height: 100px;
+	text-align: center;
+	transition: all 0.2s;
+	transition-duration: 0.2s;
+
+}
+.Additional__containewr{
+    background-color: #fff;
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	
+	overflow: scroll;
+	width: 768px;
+	max-width: 100%;
+	min-height: 480px;
+}
+.Login__option{
+    width: 70%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
